@@ -1,0 +1,29 @@
+{
+  "family": "b5mjs",
+  "name": "citycascade",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/b5mjs/citycascade",
+  "author": "feld_yin@163.com",
+  "maintainers": [
+    "feld_yin@163.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/b5mjs/citycascade.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "citycascade.js",
+      "citycascade.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
