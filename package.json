@@ -1,12 +1,12 @@
 {
-  "family": "b5mjs",
+  "family": "b5m",
   "name": "citycascade",
   "version": "1.0.0",
   "description": "The best project ever.",
   "homepage": "https://github.com/b5mjs/citycascade",
-  "author": "feld_yin@163.com",
+  "author": "Zhengfei Yin <feld_yin@163.com>",
   "maintainers": [
-    "feld_yin@163.com"
+    "Zhengfei Yin"
   ],
   "repository": {
     "type": "git",
@@ -19,8 +19,7 @@
   "licenses": "MIT",
   "spm": {
     "output": [
-      "citycascade.js",
-      "citycascade.css"
+      "citycascade.js"
     ],
     "alias": {},
     "devAlias": {},
