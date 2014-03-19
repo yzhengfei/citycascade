@@ -1,4 +1,5 @@
 define("b5m/citycascade/1.0.0/citycascade-debug", [ "$-debug" ], function(require, exports, module) {
+    this.$ = require("$-debug");
     var a = {
         findout: function(b, c) {
             if (!$.isArray(b)) throw "the findout function needs an array as first parameter";
@@ -101,18 +102,18 @@ define("b5m/citycascade/1.0.0/citycascade-debug", [ "$-debug" ], function(requir
         this.init(a);
     };
     (function(e) {
-        e.init = function(a) {
+        e.init = function(option) {
             var b = "0", c = "1000", d = "1000";
-            this.provDom = a.provDom;
-            this.cityDom = a.cityDom;
+            this.provDom = a.E(option.provDom);
+            this.cityDom = a.E(option.cityDom);
             this.provDom && (b = this.provDom.getAttribute("defValue") || "0");
             this.cityDom && (c = this.cityDom.getAttribute("defValue") || "1000");
-            this.provCode = a.provCode || b;
-            this.cityCode = a.cityCode || c;
-            this.noLimit = a.noLimit;
-            this.badDesign = a.badDesign;
-            this.hiddenInputDomId = a.hiddenInputDomId;
-            this.onSelected = a.onSelected || function() {};
+            this.provCode = option.provCode || b;
+            this.cityCode = option.cityCode || c;
+            this.noLimit = option.noLimit;
+            this.badDesign = option.badDesign;
+            this.hiddenInputDomId = option.hiddenInputDomId;
+            this.onSelected = option.onSelected || function() {};
             this.loadProv();
             this.loadCity();
             this.bindEvent("prov");

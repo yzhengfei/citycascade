@@ -2,7 +2,7 @@
   "family": "b5m",
   "name": "citycascade",
   "version": "1.0.0",
-  "description": "The best project ever.",
+  "description": "城市级联组件,提供两级城市级联功能特性(此组件扣至新浪微博)",
   "homepage": "https://github.com/b5mjs/citycascade",
   "author": "Zhengfei Yin <feld_yin@163.com>",
   "maintainers": [

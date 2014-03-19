@@ -2,7 +2,7 @@
 
 ---
 
-城市级联组件,提供两级城市级联、以及星座功能特性(此组件扣至新浪微博)
+城市级联组件,提供两级城市级联功能特性(此组件扣至新浪微博)
 ![城市级联图](http://ww2.sinaimg.cn/mw690/abede2a8gw1eekv5gsswaj20nq071t8x.jpg)
 
 ---
@@ -19,8 +19,8 @@
 ```javascript
 seajs.use('citycascade', function(citycascade) {
 	new citycascade({
-		provDom:$('#city1')[0],
-		cityDom:$('#city2')[0],
+		provDom:'city1',
+		cityDom:'city2',
 		noLimit: {city: !0}
 	});
 });
@@ -34,10 +34,10 @@ seajs.use('citycascade', function(citycascade) {
 ````
 
 ```javascript
-seajs.use('citycascade', function(citycascade) {
+seajs.use('b5m/citycascade/1.0.0/citycascade', function(citycascade) {
 	new citycascade({
-		provDom:$('#city3')[0],
-		cityDom:$('#city4')[0],
+		provDom:'city3',
+		cityDom:'city4',
 		noLimit: {city: !0}
 	});
 });
